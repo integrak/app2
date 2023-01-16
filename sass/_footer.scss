@@ -1,0 +1,26 @@
+footer {
+   width: 100%;
+   background-color: #245852;
+}
+
+.footer__wraper {
+   width: 70%;
+   margin: 0 auto;
+}
+
+.footer__text {
+   size: 25px;
+   font-family: Lato-Regular;
+   line-height: 1.8;
+   a {
+      color: #FFFFFF;
+   }
+}
+
+.footer__text ul li {
+   margin: 20px 0;
+}
+
+.logo {
+   font-size: 30px;
+}

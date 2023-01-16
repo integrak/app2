@@ -1,0 +1,33 @@
+header {
+   width: 70%;
+   margin: 0px auto;
+   height: 85px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.menu__list ul li {
+   display: inline;
+   padding: 0 30px;
+}
+
+.menu__list a {
+   color: #292929;
+   &:hover {
+      color: #01996D;
+      transition: 1s;
+   }
+}
+
+.menu__element button {
+   background-color: #01996D;
+   color: #FFFFFF;
+   padding: 13px 50px 13px 50px;
+   font-size: 16px;
+   border-radius: 4px;
+   &:hover {
+      background-color: #245852;
+      transition: 1s;
+   }
+}

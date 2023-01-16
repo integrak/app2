@@ -1,0 +1,36 @@
+.slider__block {
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+   img {
+      max-width: 100%;
+   }
+}
+
+.slider__column {
+   position: absolute;
+   left: 15%;
+   top: 20%;
+   display: flex;
+   flex-direction: column;
+}
+
+.slider__item {
+   margin-top: 30px;
+}
+
+.slider__title {
+   font-family: Georgia;
+   font-size: 65px;
+   font-weight: 700;
+   line-height: 74px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #01996D;
+}
+
+.slider__article {
+   width: 420px;
+   font-size: 20px;
+   line-height: 30px;
+}

@@ -1,0 +1,31 @@
+.video__block {
+   width: 100%;
+   background-color: #245852;
+}
+
+.video__wrapper {
+   width: 70%;
+   margin: 0px auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 100px;
+}
+
+.video__content div {
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.video__content p {
+   color: #FFFFFF;
+   font-size: 15px;
+   margin: 20px 0px;
+}
+
+.video video {
+   width: 450px;
+}
