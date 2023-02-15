@@ -1,5 +1,5 @@
 var elMap = document.getElementById('loc'); // HTML-элемент
-var msg = 'Sorry, we were unable to get your location.'; // Сообщение об отсутствии данных о местоположении
+var msg = 'Sorry, we were unable to get your location.'; // Сообщение об отсутствии данных о местоположении!
 if (Modernizr.geolocation) { // Поддерживается ли геолокация
 navigator.geolocation.getCurrentPosition(success, fail); // Запрашиваем координаты
 elMap.textContent = 'Определение местонахождения...'; // Уведомляем об операции определения...
